@@ -47,7 +47,7 @@ background-color: #fffbf7;
     height: 100%;
     line-height: 45px;
 
-    background-color: pink;
+    
   }
   
   .logo {
@@ -94,6 +94,141 @@ background-color: #fffbf7;
 
   .main {
 
-    margin-top: 140px;
+    margin-top: 285px;
     text-align: center;
   }
+
+
+
+  .publish {
+    /* container styles if any */
+    margin-left: 30px;
+  }
+  
+  .publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+  .publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .publish > form {
+    display: flex;
+  }
+  .publish > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
+  
+  .promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+  } 
+  .cont1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cont1 img {
+    width: 120px;
+    margin-top:10px;
+  }
+
+  .fixed-header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: #fffbf7;
+  }
+  .mainContainer{
+    width:70%;
+    display:grid;
+    grid-template: "a a" 330px
+                    "b b" 330px/1fr 1fr;
+  
+  margin:auto;              
+                 }
+  .features{
+    width:100%;
+    height:100%;
+    background-color:#025157 ;   
+  }  
+
+  .subContainer{
+    display:grid;
+    width: 90%;
+    margin: 5% auto ;
+    grid-template: "mIcon asideImg" 20%
+                    "mainContent asideImg" 60%
+                    "link asideImg" 20% /1fr 1fr ;
+    border-radius: 25px;
+    background-color: #fff;
+   }
+
+  .subContainer .mIcon {
+    grid-area: mIcon;
+    margin-left: 8%;
+   
+  }
+
+  .subContainer .mainContent {
+    grid-area: mainContent;
+    
+    
+  }
+
+  .subContainer .mainContent p, h1, a {
+    text-align: left;
+    margin-left: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .subContainer .mainContent p {
+   
+    color: #555;
+    font-size: 1em;
+
+  }
+
+  .subContainer .link a {
+   
+    color: #67b54b;
+    font-size: 1em;
+    text-decoration: none;
+
+  }
+
+
+  .subContainer  .asideImg {
+    grid-area: asideImg;
+    
+  }
+
+  .subContainer  .asideImg img{
+    width:40%;
+    margin: 10% 60%;
+    
+  }
+  .subContainer .link {
+    grid-area: link;
+   
+  }
+
+  .mIcon img {
+    width:10%;
+    margin: 5% 5%;
+  }
+
+  .link a{
+    
+    line-height: 50px;
+  }
+
